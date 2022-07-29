@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color:#ececec;
+    background-color: #21201f;
+  }
+
+  .container {
+    margin: auto;
+    padding: 40px;
+  }
+
+.info {
+    display: flex;
+}
+
+.myPhoto {
+    display: block;
+    border-radius: 50%;
+}
+
+.infoText {
+    margin: 40px 30px;
+    font-weight:bold;
+}
+
+.socialNet {
+    margin: 40px auto;
+}
+
+.btn {
+    color:#d3d3cd;
+    background-color: #ef6817;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight:600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-size: 25px;
+    transition: all 1s;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.hobbyH {
+    margin: 0;
+
+}
+
+h2, h1 {
+    border-bottom: 7px solid #ef6817;
+    display: inline-block;
+    padding-bottom: 10px;
+    }
+
+table {
+    width: 30%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+    }
+
+th:hover, td:hover {
+        background: #5f605d;
+    }
+
+.form {
+    text-align:center;
+    width: 30%;
+    margin:auto;
+    border:solid 3px #ef6817;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+
+input, textarea  {
+
+    display: block;
+    margin-bottom: 10px;
+    border: 3px solid #ef6817;
+    border-radius: 20px;
+    padding: 5px;
+    background: #d3d3cd;
+}
+
+.form h3 {
+    color:#ef6817
+}
+
+@media (max-width: 1014px) {
+    .info {
+      display: block;
+      margin: auto;
+    }
+  }
+
+@media (max-width: 614px) {
+    a {
+        display: block;
+        margin: auto;
+    }
+}
+
+
+
+
+    
+
+
+
+
